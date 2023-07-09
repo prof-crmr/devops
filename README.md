@@ -19,6 +19,7 @@ Git is a version control system that allows you to track changes in your codebas
 sudo apt update
 sudo apt install git
 3. Verify the installation by running:
+   
 git --version
 
 
