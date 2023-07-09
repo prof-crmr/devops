@@ -1,4 +1,4 @@
-![image](https://github.com/kodekollab/devops/assets/139070180/11688fc4-9b18-4573-9c63-62a3e59a2829)# DevOps Training Prerequisites
+# DevOps Training Prerequisites
 
 This document provides step-by-step instructions to install the prerequisite software for the team training on Ubuntu.
 
