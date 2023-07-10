@@ -53,6 +53,16 @@ The objective of this Lab Exercise is to familiarize your team with additional G
 #### Objective
 The objective of this Lab Exercise is to understand the difference between the `git pull` and `git fetch` commands in Git. By following the steps and examples provided, you will gain a better understanding of when to use each command and how they differ in their behavior.
 
+## Lab Exercise 6: Reverting Changes
+
+#### Objective
+The objective of this Lab Exercise is to understand how to revert changes in Git using different commands: `git reset`, `git reset --hard`, and `git revert`. By following the steps and examples provided, you will gain a better understanding of when and how to use each command.
+
+## Lab Exercise 7: Git Tagging Concepts
+
+#### Objective
+The objective of this Lab Exercise is to understand Git tagging concepts, including creating tags, listing tags, and using annotated tags and lightweight tags. By following the steps and examples provided, you will gain a better understanding of how to use Git tags for marking important milestones or releases in your repository.
+
 
 Feel free to navigate to each individual Lab Exercise to access the detailed instructions and steps for each scenario.
 
