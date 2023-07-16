@@ -62,17 +62,21 @@ Jenkins is an open-source automation server used for continuous integration and 
 1. Open a terminal.
 2. Run the following command to install Jenkins
     ```bash
-   curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
-     /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
    
-   echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-     https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-     /etc/apt/sources.list.d/jenkins.list > /dev/null
+   echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
    
    sudo apt-get update
    
    sudo apt-get install jenkins
    ```
+3. Follow post-installation steps once installation is completed
+4. copy key from */var/jenkins_home/secrets/initialAdminPassword*
+5. To copy you can use following command
+   ```bash
+   sudo cat  /var/jenkins_home/secrets/initialAdminPassword
+   ```
+   **Note: Ensure to check the right path in your browser after installation**
 
 ![image](https://github.com/kodekollab/devops/assets/139070180/efb73b2c-9419-4c38-9a94-7bab7aaa19d9)
 
@@ -85,6 +89,17 @@ Verify Jenkins installation:
 http://localhost:8080
 
 login with credentials provided during setup
+
+## Ansible
+
+Ansible is a configuration management tool which offers an architecture that doesn’t require special software to be installed on nodes, using SSH to execute the automation tasks and YAML files to define provisioning details
+
+1. Open a terminal.
+2. Run the following command to install Podman
+    ```bash
+   sudo apt-get update
+   sudo apt install ansible
+   ```
 
 ## Podman
 
