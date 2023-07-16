@@ -16,9 +16,11 @@ Git is a version control system that allows you to track changes in your codebas
 
 1. Open a terminal.
 2. Run the following command to install Git:
-sudo apt update
-sudo apt install git
-3. Verify the installation by running:
+   ```bash
+   sudo apt update
+   sudo apt install git
+   ```
+4. Verify the installation by running:
    
 git --version
 
@@ -29,9 +31,10 @@ Java is a widely-used programming language. Follow these instructions to install
 
 1. Open a terminal.
 2. Install Java 17:
-   
-sudo apt update
-sudo apt install openjdk-17-jdk
+    ```bash
+   sudo apt update
+   sudo apt install openjdk-17-jdk
+   ```
 
 3. Verify the installation by running:
 
