@@ -37,23 +37,23 @@ Java is a widely-used programming language. Follow these instructions to install
    ```
 
 3. Verify the installation by running:
-
-java -vesion 
-
+    ```bash
+   java -vesion 
+   ```
 ## Maven
 
 Maven is a build automation tool used primarily for Java projects. Follow these instructions to install Maven:
 
 1. Open a terminal.
 2. Run the following command to install Maven:
-
-sudo apt update
-sudo apt install maven
-
+   ```bash
+   sudo apt update
+   sudo apt install maven
+   ```
 3. Verify the installation by running:
-
-mvn --version 
-
+    ```bash
+   mvn --version 
+   ```
 
 ## Jenkins
 
@@ -61,17 +61,18 @@ Jenkins is an open-source automation server used for continuous integration and 
 
 1. Open a terminal.
 2. Run the following command to install Jenkins
-
-curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
-  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-
-echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-  /etc/apt/sources.list.d/jenkins.list > /dev/null
-
-sudo apt-get update
-
-sudo apt-get install jenkins
+    ```bash
+   curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+     /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   
+   echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+     https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+     /etc/apt/sources.list.d/jenkins.list > /dev/null
+   
+   sudo apt-get update
+   
+   sudo apt-get install jenkins
+   ```
 
 ![image](https://github.com/kodekollab/devops/assets/139070180/efb73b2c-9419-4c38-9a94-7bab7aaa19d9)
 
@@ -91,14 +92,14 @@ Podman is a tool for managing containers. Follow these instructions to install P
 
 1. Open a terminal.
 2. Run the following command to install Podman
-
-sudo apt-get update
-sudo apt-get -y install podman
-
+    ```bash
+   sudo apt-get update
+   sudo apt-get -y install podman
+   ```
 Verify Podman installation
-
-podman --version 
-
+    ```bash
+   podman --version 
+   ```
 
 That's it! You have successfully installed the prerequisite software for DevOps sessions.
 
