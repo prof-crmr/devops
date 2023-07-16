@@ -100,6 +100,10 @@ Ansible is a configuration management tool which offers an architecture that doe
    sudo apt-get update
    sudo apt install ansible
    ```
+3. Verify ansible installation
+    ```bash
+   ansible --version 
+   ```
 
 ## Podman
 
@@ -111,7 +115,7 @@ Podman is a tool for managing containers. Follow these instructions to install P
    sudo apt-get update
    sudo apt-get -y install podman
    ```
-Verify Podman installation
+3. Verify Podman installation
     ```bash
    podman --version 
    ```
